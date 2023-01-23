@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 
 # テキスト➀
-st.title('アプリ')
-st.caption('これはサブアプリです')
+st.title('田口サイト')
+st.caption('これは内容を充実していきます')
 
 # 画像
 image=Image.open('./data/000001.jpg')
