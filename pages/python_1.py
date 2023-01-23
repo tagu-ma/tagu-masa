@@ -3,6 +3,7 @@ import streamlit as st
 '''
 # 田口先生、サッカー強すぎ
 # さいこう
+# いつも勝ってばかり
 '''
 code='''
 import stream as st
