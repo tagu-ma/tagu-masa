@@ -16,7 +16,7 @@ import streamlit as st
 #_df_pptx
 
 st.file_uploader('./data/花火 a pptx')
-st.download_button('花火 a pptx')
+st.download_button('./data/花火 a pptx')
 
 
 code='''
