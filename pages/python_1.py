@@ -15,6 +15,8 @@ import streamlit as st
 #_df_pptx = pd.read_pptx(uploaded_files_pptx)
 #_df_pptx
 
+st.file_uploader('./data/花火 a pptx')
+
 code='''
 
 import stream as st
