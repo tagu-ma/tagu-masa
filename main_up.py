@@ -3,7 +3,7 @@ from PIL import Image
 
 # テキスト➀
 st.title('田口サイト')
-st.caption('これは内容を充実していきます')
+st.caption('これから内容を充実していきます。楽しみに！')
 
 # 画像
 image=Image.open('./data/000001.jpg')
