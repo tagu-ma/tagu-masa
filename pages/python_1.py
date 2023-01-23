@@ -5,15 +5,15 @@ import streamlit as st
 # さいこう
 # いつも勝ってばかり
 '''
-st.text('花火_xls')
-uploaded_files_xlsx = st.file_uploader('ファイルアップロード', type='xlsx')
+st.text('花火')
+uploaded_files_pptx = st.file_uploader('./data/花火', type='pptx')
 
-submit_btn_xlsx = st.button('xlsx処理実行')
+submit_btn_pptx = st.button('pptx処理実行')
 
 #ボタンが押されたら処理を実行する
-if submit_btn_xlsx:
-_df_xlsx = pd.read_excel(uploaded_files_xlsx)
-_df_xlsx
+if submit_btn_pptx:
+_df_pptx = pd.read_pptx(uploaded_files_pptx)
+_df_pptx
 
 code='''
 import stream as st
