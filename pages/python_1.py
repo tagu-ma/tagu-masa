@@ -1,5 +1,9 @@
 import streamlit as st
 
+'''
+# 田口先生、サッカー強すぎ
+# さいこう
+'''
 code='''
 import stream as st
 
