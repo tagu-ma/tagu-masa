@@ -5,7 +5,7 @@ import numpy as np
 '''
 # 作曲:ＡＩと田口作成
 '''
-audio_file = open('./data1/AI曲・田口作成.mp3', 'rb')
+audio_file = open('./data/AI曲・田口作成.mp3', 'rb')
 audio_bytes = audio_file.read()
 
 st.audio(audio_bytes, format='audio/ogg')
