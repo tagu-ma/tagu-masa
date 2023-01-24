@@ -9,7 +9,7 @@ st.dataframe(df)
 
 # Excelマクロの読込
 st.title('マクロExcel・付箋作成・縦配置')
-xlsm = st.file_uploader('./data/マクロExcel・付箋作成・縦配置', type='xlsm')
+xlsm = st.file_uploader('./data/マクロExcel・付箋作成・縦配置'.xlsm')
 
 btn_xlsm = st.button('xlsm処理実行')
 #ボタンが押されたら処理を実行する
