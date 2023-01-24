@@ -13,11 +13,11 @@ with col1:
     '''
     ## かわいいネコ
     '''
-    image=Image.open('./data1/000001.jpg')
+    image=Image.open('./data/000001.jpg')
     st.image(image,width=400)
 
 with col2:
-    image=Image.open('./data1/平原小.jpg')
+    image=Image.open('./data/平原小.jpg')
     st.image(image,width=400)
     '''
     ## 油絵:田口作
