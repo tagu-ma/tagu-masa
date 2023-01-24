@@ -24,5 +24,5 @@ pptx = st.file_uploader('./data/花火.pptx')
 btn_pptx = st.button('pptx処理実行')
 #ボタンが押されたら処理を実行する
 if btn_pptx:
-     #pptx = pd.read_excel(pptx)
+     pptx = pd.read_excel(pptx)
      pptx    
