@@ -4,7 +4,7 @@ import pandas as pd
 
 # resource_add_path('E:\平原小・唐津市\R4年・パイソン・Python\⑳アプリ公開\supu_app\data')
 
-df=pd.read_csv('./data1/平均気温.csv',index_col='月')
+df=pd.read_csv('./data/平均気温.csv',index_col='月')
 st.subheader('１年間の平均気温')
 st.dataframe(df)
 # st.table(df)
