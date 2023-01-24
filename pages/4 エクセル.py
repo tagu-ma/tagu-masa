@@ -17,7 +17,7 @@ if btn_xlsm:
      xlsm = pd.read_excel(xlsm)
      xlsm
      
- # PowerPointの読込    
+ # PowerPointの読込み    
 st.title('花火')
 pptx = st.file_uploader('./data/花火.pptx')
 
