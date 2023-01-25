@@ -3,10 +3,11 @@ from PIL import Image
 
 # テキスト➀
 st.title('田口サイトで～す')
-st.caption('もっと内容を充実していきます。ご安心を！')
+# st.caption('もっと内容を充実していきます。ご安心を！')
+'''
+## もっと内容を充実していきます。ご安心を！
 
-
-# 画面分割
+''' 画面分割
 col1, col2= st.columns(2)
 with col1:
     # 画像
