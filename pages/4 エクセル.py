@@ -3,9 +3,9 @@ import pandas as pd
 # Excelファイルの読込
 
 st.title('L-gate・おすすめサイト一覧')
-xlsx = pd.read_excel('./data/L-gate・おすすめサイト一覧.xlsx', sheet_name= 'タイピングサイト')
+df = pd.read_excel('./data/L-gate・おすすめサイト一覧.xlsx', sheet_name= 'タイピングサイト')
 #st.dataframe(df)
-st.table(xlsx)
+#st.table(df)
 
 # Excelマクロの読込
 st.title('マクロExcel・付箋作成・縦配置')
