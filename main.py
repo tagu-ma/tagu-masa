@@ -5,7 +5,7 @@ from PIL import Image
 st.title('田口サイトで～す')
 # st.caption('もっと内容を充実していきますよ！')
 '''
-## もっと内容を充実していきます。ご安心を！
+## もっと内容を充実していきますよ！
 ''' 
 #画面分割
 col1, col2= st.columns(2)
