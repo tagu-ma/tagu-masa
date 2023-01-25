@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 '''
-# 作曲:田口(+AI)作成
+# 作曲:田口先生(+AI様)作成
 '''
 audio_file = open('./data/AI曲・田口作成.mp3', 'rb')
 audio_bytes = audio_file.read()
