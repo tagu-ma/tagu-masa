@@ -19,7 +19,7 @@ with col1:
 
 with col2:
     image=Image.open('./data/平原小.jpg')
-    st.image(image,width=400)
+    st.image(image,width=00)
     '''
-    ## 油絵:田口作
+    ## 油絵:田口先生作
     '''
