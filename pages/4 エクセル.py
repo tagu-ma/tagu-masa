@@ -3,7 +3,7 @@ import pandas as pd
 # Excelファイルの読込
 
 st.title('L-gate・おすすめサイト一覧')
-df = pd.read_excel('./data/L-gate・おすすめサイト一覧.xlsx',sheet_name=2)
+df = pd.read_excel('./data/L-gate・おすすめサイト一覧.xlsx')
 st.dataframe(df)
 #st.table(df)
 
