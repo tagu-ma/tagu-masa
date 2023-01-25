@@ -25,7 +25,7 @@ st.audio(note_la, sample_rate=sample_rate)
 # 電子ピアノ演奏
 '''
 import streamlit as st
-video_file=open('./data/動画.MTS','rb')
+video_file=open('./data/動画mp4.mp4','rb')
 video_bvtes=video_file.read()
 st.video(video_bvtes)
 
