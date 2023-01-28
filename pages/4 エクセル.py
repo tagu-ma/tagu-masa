@@ -16,7 +16,7 @@ btn6 = st.button('文科省サイト')
 
 #ボタンが押されたら処理を実行する
 if btn1:
-    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 1)
+    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 'タイピング')
     st.dataframe(df)
 elif btn2:
     df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
