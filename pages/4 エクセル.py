@@ -13,6 +13,7 @@ btn3 = st.button('学習サイト')
 btn4 = st.button('情報モラル')
 btn5 = st.button('マウス・タッチ練習')
 btn6 = st.button('文科省サイト')
+btn6 = st.button('消去')
 
 #ボタンが押されたら処理を実行する
 if btn1:
@@ -40,20 +41,20 @@ elif btn5:
 '''
 ## jamboard/Excelマクロ
 '''
-file2 = './data/マクロ.xlsm'
-btn_xlsm2 = st.button('マクロ処理実行')
+file_xlsm = './data/マクロ.xlsm'
+btn_xlsm = st.button('マクロ処理実行')
 #ボタンが押されたら処理を実行する
-if btn_xlsm2:
-    subprocess.Popen(['powershell', 'start', file2], shell=True)
+if btn_xlsm:
+    subprocess.Popen(['powershell', 'start', file_xlsm], shell=True)
      
 # パワーポイントの起動➂
 '''
 ## 花火
 '''
-file3 = './data/花火.pptx'
-btn_xlsm3 = st.button('pptx処理実行')
+file_pptx = './data/花火.pptx'
+btn_pptx = st.button('pptx処理実行')
 #ボタンが押されたら処理を実行する
-if btn_xlsm3:
+if btn_pptx:
 # スライドショーを開始
-    subprocess.Popen(['powershell', 'start', file3], shell=True)
+    subprocess.Popen(['powershell', 'start', file_pptx], shell=True)
 
