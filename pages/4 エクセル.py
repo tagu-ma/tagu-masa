@@ -16,22 +16,22 @@ btn6 = st.button('文科省サイト')
 
 #ボタンが押されたら処理を実行する
 if btn1:
-    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 0)
-    st.dataframe(df)
-elif btn2:
     df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 1)
     st.dataframe(df)
-elif btn3:
+elif btn2:
     df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
     st.dataframe(df)
-elif btn4:
+elif btn3:
     df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
     st.dataframe(df)
-elif btn5:
+elif btn4:
     df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
     st.dataframe(df)
-elif btn6:
+elif btn5:
     df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
+    st.dataframe(df)
+elif btn6:
+    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 6)
     st.dataframe(df)
     #st.table(df)
       
