@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # テキスト➀
-st.title('田口サイトで～す')
+st.title('田口先生ファンクラブサイト')
 st.caption('もっと内容を充実していきます。ご安心を！')
 #'''
 # ## もっと内容を充実していきます。
