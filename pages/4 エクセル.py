@@ -18,21 +18,21 @@ btn6 = st.button('文科省サイト')
 if btn1:
     df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 'タイピング')
     st.dataframe(df)
-elif btn2:
-    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
-    st.dataframe(df)
-elif btn3:
-    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
-    st.dataframe(df)
-elif btn4:
-    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
-    st.dataframe(df)
-elif btn5:
-    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
-    st.dataframe(df)
-elif btn6:
-    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 6)
-    st.dataframe(df)
+#elif btn2:
+#    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
+#    st.dataframe(df)
+#elif btn3:
+#    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
+#    st.dataframe(df)
+#elif btn4:
+#    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
+#    st.dataframe(df)
+#elif btn5:
+#    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
+#    st.dataframe(df)
+#elif btn6:
+#    df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 6)
+#    st.dataframe(df)
     #st.table(df)
       
     
