@@ -35,7 +35,7 @@ df=pd.DataFrame(
 st.map(df)
 
 # テキストボックスをサイドバーに
-st.sidebar.write('あなたについて答えて下さい')
-st.sidebar.text_input('名前は？')
-st.sidebar.text_input('住所は？')
+#st.sidebar.write('あなたについて答えて下さい')
+#st.sidebar.text_input('名前は？')
+#st.sidebar.text_input('住所は？')
 
