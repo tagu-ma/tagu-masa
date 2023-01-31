@@ -17,6 +17,7 @@ btn7 = st.button('消去')
 
 #ボタンが押されたら処理を実行する
 if btn1:
+    #wb=openpyxl.load_workbook('./data/L-gate.xlsx',data_only=True,sheet_name= 0)
     df = pd.read_excel('./data/L-gate.xlsx',sheet_name= 0)
     st.dataframe(df)
 elif btn2:
