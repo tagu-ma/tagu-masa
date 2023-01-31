@@ -53,6 +53,6 @@ if btn_xlsm:
 # '''
 file_pptx = './data/花火.pptx'
 btn_pptx = st.button('pptx処理実行')
-#ボタンが押されたら処理を実行する
+# ボタンが押されたら処理を実行する
 if btn_pptx:
     subprocess.Popen(['powershell', 'start', file_pptx], shell=True) 
