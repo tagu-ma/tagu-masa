@@ -25,7 +25,7 @@ btn7 = st.button('消去')
 
 #ボタンが押されたら処理を実行する
 if btn1:
-    df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 0)
+    df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= "タイピング")
     st.dataframe(df_1)
 elif btn2:
     st.dataframe(df_2)
