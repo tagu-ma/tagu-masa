@@ -9,34 +9,33 @@ import subprocess
 
 # st.title('L-gate')
 btn1 = st.button('タイピング')
-#df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 0)
 btn2 = st.button('プログラミング')
-df_2 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
 #wb_1=openpyxl.load_workbook('./data/L-gate.xlsx',data_only=True,sheet_name= 2)
 btn3 = st.button('学習サイト')
-df_3 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
 btn4 = st.button('情報モラル')
-df_4 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
 btn5 = st.button('マウス・タッチ練習')
-df_5 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
 btn6 = st.button('文科省サイト')
-df_6 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 6)
 btn7 = st.button('消去')
 
 #ボタンが押されたら処理を実行する
 if btn1:
-    df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= "タイピング")
-    st.dataframe(df_1)
+    df1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= "タイピング")
+    st.dataframe(df1)
 elif btn2:
-    st.dataframe(df_2)
-elif btn3:   
-    st.dataframe(df_3)
-elif btn4:    
-    st.dataframe(df_4)
-elif btn5:   
-    st.dataframe(df_5)
-elif btn5:    
-    st.dataframe(df_5)
+    df2 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
+    st.dataframe(df2)
+elif btn3: 
+    df3 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
+    st.dataframe(df3)
+elif btn4:
+    df_4 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
+    st.dataframe(df4)
+elif btn5:
+    df5 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
+    st.dataframe(df5)
+elif btn5:
+    df6 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 6)
+    st.dataframe(df)
     #st.table(df)
       
     
