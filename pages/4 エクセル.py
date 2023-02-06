@@ -48,13 +48,6 @@ if uploaded_file is not None:
 else:
     st.write("Please upload an Excel file.")   
 
-# Excelファイルの読み込み
-df = pd.read_excel('https://cloud_url/L-gate.xlsx', sheet_name= 1)
-
-# Streamlitで表示
-st.dataframe(df)   
-    
-    
 # マクロの起動➁
 '''
 ## jamboard/Excelマクロ
