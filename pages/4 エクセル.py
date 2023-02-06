@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import subprocess
-import openpyxl
 
 # Excelファイルの読込➀
 '''
@@ -9,32 +8,32 @@ import openpyxl
 '''
 
 # st.title('L-gate')
-btn0 = st.button('タイピング')
-df_0 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 0)
-btn1 = st.button('プログラミング')
+btn1 = st.button('タイピング')
 df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 1)
-#wb_1=openpyxl.load_workbook('./data/L-gate.xlsx',data_only=True,sheet_name= 2)
-btn2 = st.button('学習サイト')
+btn2 = st.button('プログラミング')
 df_2 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
-btn3 = st.button('情報モラル')
+#wb_1=openpyxl.load_workbook('./data/L-gate.xlsx',data_only=True,sheet_name= 2)
+btn3 = st.button('学習サイト')
 df_3 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
-btn4 = st.button('マウス・タッチ練習')
+btn4 = st.button('情報モラル')
 df_4 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
-btn5 = st.button('文科省サイト')
+btn5 = st.button('マウス・タッチ練習')
 df_5 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
-btn6 = st.button('消去')
+btn6 = st.button('文科省サイト')
+df_6 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 6)
+btn7 = st.button('消去')
 
 #ボタンが押されたら処理を実行する
-if btn0:
-    st.dataframe(df_0)
-elif btn1:
+if btn1:
     st.dataframe(df_1)
-elif btn2:   
+elif btn2:
     st.dataframe(df_2)
-elif btn3:    
+elif btn3:   
     st.dataframe(df_3)
-elif btn4:   
+elif btn4:    
     st.dataframe(df_4)
+elif btn5:   
+    st.dataframe(df_5)
 elif btn5:    
     st.dataframe(df_5)
     #st.table(df)
