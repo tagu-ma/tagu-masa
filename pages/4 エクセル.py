@@ -6,18 +6,12 @@ import subprocess
 '''
 ## L-gate おおすすめサイト
 '''
-# ファイルアップロードウィジェットを作成
-uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx"])
-
-if uploaded_file is not None:
-    # ファイルアップロードウィジェットから読み込んだExcelファイルを読み込む
-    wb = openpyxl.load_workbook(uploaded_file, data_only=True)
-    st.write("Excel file uploaded and loaded successfully!")
-else:
-    st.write("Please upload an Excel file.")
-
-# st.title('L-gate')
 btn0 = st.button('タイピング')
+try:
+    df_0 = pd.read_excel('./data/L-gate.xlsx', sheet_name=0)
+except Exception as e:
+    st.write("Error:", e)
+
 df_0 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 0)
 btn1 = st.button('プログラミング')
 df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 1)
