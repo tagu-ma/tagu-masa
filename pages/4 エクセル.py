@@ -22,19 +22,19 @@ if btn1:
     df1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= "タイピング")
     st.dataframe(df1)
 elif btn2:
-    df2 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
+    df2 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 1)
     st.dataframe(df2)
 elif btn3: 
-    df3 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
+    df3 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
     st.dataframe(df3)
 elif btn4:
-    df_4 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
+    df_4 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
     st.dataframe(df4)
 elif btn5:
-    df5 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
+    df5 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
     st.dataframe(df5)
 elif btn5:
-    df6 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 6)
+    df6 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
     st.dataframe(df)
     #st.table(df)
       
