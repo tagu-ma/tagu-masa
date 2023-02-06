@@ -6,6 +6,7 @@ import subprocess
 '''
 ## L-gate おおすすめサイト
 '''
+wb=openpyxl.load_workbook('./data/L-gate.xlsx',data_only=True)
 # st.title('L-gate')
 btn0 = st.button('タイピング')
 df_0 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 0)
