@@ -47,7 +47,12 @@ if uploaded_file is not None:
     st.write("Excel file uploaded and loaded successfully!")
 else:
     st.write("Please upload an Excel file.")   
-    
+
+# Excelファイルの読み込み
+df = pd.read_excel('https://cloud_url/file.xlsx', sheet_name= 1)
+
+# Streamlitで表示
+st.dataframe(df)   
     
     
 # マクロの起動➁
