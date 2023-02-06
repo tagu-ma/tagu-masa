@@ -6,23 +6,17 @@ import subprocess
 '''
 ## L-gate おおすすめサイト
 '''
-btn0 = st.button('タイピング')
-try:
-    df_0 = pd.read_excel('./data/L-gate.xlsx', sheet_name=0)
-except Exception as e:
-    st.write("Error:", e)
-
-df_0 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 0)
+df_0 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 1)
 btn1 = st.button('プログラミング')
-df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 1)
+df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
 btn2 = st.button('学習サイト')
-df_2 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
+df_2 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
 btn3 = st.button('情報モラル')
-df_3 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 3)
+df_3 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
 btn4 = st.button('マウス・タッチ練習')
-df_4 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 4)
+df_4 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
 btn5 = st.button('文科省サイト')
-df_5 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
+df_5 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 6)
 btn6 = st.button('消去')
 
 #ボタンが押されたら処理を実行する
