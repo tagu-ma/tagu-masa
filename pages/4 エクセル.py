@@ -9,7 +9,7 @@ import subprocess
 
 # st.title('L-gate')
 btn1 = st.button('タイピング')
-df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 1)
+df_1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 0)
 btn2 = st.button('プログラミング')
 df_2 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 2)
 #wb_1=openpyxl.load_workbook('./data/L-gate.xlsx',data_only=True,sheet_name= 2)
