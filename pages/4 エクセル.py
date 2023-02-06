@@ -37,7 +37,18 @@ elif btn5:
     df6 = pd.read_excel('./data/L-gate.xlsx',sheet_name= 5)
     st.dataframe(df)
     #st.table(df)
-      
+
+# ファイルアップロードウィジェットを作成
+uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx"])
+
+if uploaded_file is not None:
+    # ファイルアップロードウィジェットから読み込んだExcelファイルを読み込む
+    wb = openpyxl.load_workbook(uploaded_file, data_only=True)
+    st.write("Excel file uploaded and loaded successfully!")
+else:
+    st.write("Please upload an Excel file.")   
+    
+    
     
 # マクロの起動➁
 '''
@@ -58,3 +69,6 @@ btn_pptx = st.button('pptx処理実行')
 #ボタンが押されたら処理を実行する
 if btn_pptx:
     subprocess.Popen(['powershell', 'start', file_pptx], shell=True) 
+
+    df1 = pd.read_excel('./data/L-gate.xlsx',sheet_name= "タイピング")
+    st.dataframe(df1)
