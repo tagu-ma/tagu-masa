@@ -13,7 +13,7 @@ with st.form("my_form"):
     cancelled = st.form_submit_button('キャンセル')
     
     if submitted:
-        st.write("名前は:",name)
+        st.write("名前:",name)
     if cancelled:
         st.write("キャンセルされました")
 
