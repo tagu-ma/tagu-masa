@@ -19,6 +19,6 @@ with st.form("my_form"):
 
 # メンバー一覧
 btn=st.button('ファンメンバー一覧')
-df =pd.read_csv('./data/menber.csv')
-if btn:
-    st.dataframe(df)
+#df =pd.read_csv('./data/menber.csv')
+#if btn:
+    #st.dataframe(df)
