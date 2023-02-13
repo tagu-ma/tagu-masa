@@ -17,3 +17,8 @@ with st.form("my_form"):
     if cancelled:
         st.write("キャンセルされました")
 
+# メンバー一覧
+btn=st.button('ファンメンバー一覧')
+df =pd.read_excel('./data/メンバー登録1.xlsx')
+if btn:
+    st.dataframe(df)
