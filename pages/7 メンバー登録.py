@@ -1,5 +1,5 @@
 import streamlit as st
-
+import pandas as pd
 '''
 Web⇒Excel保存
 '''
@@ -19,6 +19,6 @@ with st.form("my_form"):
 
 # メンバー一覧
 btn=st.button('ファンメンバー一覧')
-#df =pd.read_csv('./data/menber.csv')
-#if btn:
-    #st.dataframe(df)
+df =pd.read_xcel('./data/menber.xlsx')
+if btn:
+    st.dataframe(df)
