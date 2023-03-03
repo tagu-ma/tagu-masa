@@ -39,9 +39,10 @@ import streamlit as st
 video_file=open('./data/fan.mp4','rb')
 video_bvtes=video_file.read()
 st.video(video_bvtes)
-
+'''
 # ファンの声➁
 '''
+import streamlit as st
 video_file=open('./data/mona.mp4','rb')
 video_bvtes=video_file.read()
 st.video(video_bvtes)
