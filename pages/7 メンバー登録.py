@@ -28,10 +28,17 @@ else:
             st.experimental_set_query_params(names=name_list)
 
 # キャッシュをクリア
-if st.button('キャッシュをクリア'):
-    st.caching.clear_cache()
+#if st.button('キャッシュをクリア'):
+#    st.caching.clear_cache()
 
-
+# 動画
+'''
+# ファンの声
+'''
+import streamlit as st
+video_file=open('./data/fan.mp4','rb')
+video_bvtes=video_file.read()
+st.video(video_bvtes)
 
 #with st.form("my_form"):
 #    name = st.text_input('名前は？') 
