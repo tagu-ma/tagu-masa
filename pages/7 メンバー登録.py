@@ -33,12 +33,19 @@ else:
 
 # 動画
 '''
-# ファンの声
+# ファンの声➀
 '''
 import streamlit as st
 video_file=open('./data/fan.mp4','rb')
 video_bvtes=video_file.read()
 st.video(video_bvtes)
+
+# ファンの声➁
+'''
+video_file=open('./data/mona.mp4','rb')
+video_bvtes=video_file.read()
+st.video(video_bvtes)
+
 
 #with st.form("my_form"):
 #    name = st.text_input('名前は？') 
